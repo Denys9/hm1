@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
 const String text = "Name - Denys\nSurname - Lozin\nAge - 15\nHobby - playing guitar";
-const List<String> text1 = [
-      'Playing computer games',
-      'Playing the guitar',
-      'Listening to hard-rock music',
-      'Exploring new technologies',
-    ];
 
 class Home extends StatelessWidget {
   const Home({super.key});
