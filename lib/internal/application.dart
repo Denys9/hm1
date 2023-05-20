@@ -32,7 +32,7 @@ class Application extends StatelessWidget {
                 // width: 200,  
                 height: 200, 
                 child: Image.network( 
-                  'https://www.linkpicture.com/q/деніс.jpg', 
+                  'https://photos.app.goo.gl/hcterdVSfCDro7R99', 
                   fit: BoxFit.cover, 
                 ), 
               ), 
