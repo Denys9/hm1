@@ -25,7 +25,8 @@ class Application extends StatelessWidget {
         ), 
          body: Column( 
           children: [ 
-            Align( 
+           Padding(padding: EdgeInsets.fromLTRB(100,100,100,25), 
+            child:Align( 
               alignment: Alignment.center, 
               child: SizedBox( 
                 // width: 200,  
@@ -35,11 +36,10 @@ class Application extends StatelessWidget {
                   fit: BoxFit.cover, 
                 ), 
               ), 
-            ), 
+            ), ), 
             const Home(), 
           ], 
         ), 
             )     
       );  
   } 
-}
